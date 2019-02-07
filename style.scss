@@ -1,0 +1,49 @@
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+#count {
+  margin-left:33%;
+}
+#cookinterface {
+  position: relative;
+}
+.tooling {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+}
+#cursor {
+  margin-left:10%;
+  margin-top:5%;
+}
+#cursor:hover {
+  cursor:pointer;
+}
+#auto {
+    margin-top:5%;
+}
+#auto:hover {
+  cursor:pointer;
+}
+.icons {
+  width:20px;
+}
+#biginterface {
+  display:flex;
+  height:800px;
+}
+#cookie {
+  width:70%;
+  position:static;
+}
+#cookie:active {
+  width:60%;
+  margin-left:5%;
+  margin-top:5%;
+}
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
